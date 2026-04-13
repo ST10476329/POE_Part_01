@@ -17,6 +17,7 @@ namespace POE_Part_1
             SoundPlayer player = new SoundPlayer(audioPath); // this allows the compiler to play my recording anywhere
 
 
+
             try
             {
                 player.Play();
