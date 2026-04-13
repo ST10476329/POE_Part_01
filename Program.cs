@@ -13,7 +13,7 @@ namespace POE_Part_1
     {
         static void Main(string[] args)
         {
-            string audioPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Welcome.wav");
+            string audioPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Welcome_Rec.wav");
             SoundPlayer player = new SoundPlayer(audioPath); // this allows the compiler to play my recording anywhere
 
 
